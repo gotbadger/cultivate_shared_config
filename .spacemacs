@@ -332,7 +332,10 @@ you should place your code here."
        web-mode-indent-style 2
        web-mode-markup-indent-offset 2
        web-mode-scss-indent-offset 2
-       css-indent-offset 2)
+       css-indent-offset 2
+       js2-mode-show-parse-errors nil
+       js2-mode-show-strict-warnings nil
+       )
   (define-key winum-keymap (kbd "M-3") nil)
   (global-set-key (kbd "M-3") (lambda () (interactive) (insert "#")))
   (global-set-key (kbd "C-x g") 'magit-status)
