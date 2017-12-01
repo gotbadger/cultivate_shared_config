@@ -333,6 +333,9 @@ you should place your code here."
        web-mode-markup-indent-offset 2
        web-mode-scss-indent-offset 2
        css-indent-offset 2
+       js-indent-level 2
+       js2-basic-offset 2
+       js2-indent-switch-body t
        js2-mode-show-parse-errors nil
        js2-mode-show-strict-warnings nil
        )
